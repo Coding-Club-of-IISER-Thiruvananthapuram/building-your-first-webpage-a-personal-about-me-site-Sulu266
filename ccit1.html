@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hey, I'm Sulekha Yunuskutty!</title>
+    <style>
+        /* Page background and font */
+        body {
+            background: #f0f4f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        /* Header styling */
+        header {
+            background: #39f7f7;
+            color: #fff;
+            padding: 24px 0;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        /* Main content box */
+        .main-box {
+            background: #fff;
+            max-width: 500px;
+            margin: 40px auto 20px auto;
+            padding: 32px 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(16, 115, 151, 0.399);
+        }
+        /* My photo */
+        .profile-pic {
+            display: block;
+            margin: 0 auto 18px auto;
+            width: 120px;
+            border-radius: 50%;
+            border: 3px solid #39e6e6;
+        }
+        /* Hobbies list */
+        ul.hobbies {
+            margin-top: 12px;
+            padding-left: 20px;
+        }
+        ul.hobbies li {
+            margin-bottom: 6px;
+        }
+        /* Button styling */
+        .fun-btn {
+            background: #39f7f7;
+            color: #fff;
+            border: none;
+            padding: 10px 22px;
+            border-radius: 6px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 18px;
+            transition: background 0.2s;
+        }
+        .fun-btn:hover {
+            background: #39f7f7;
+        }
+        /* Footer */
+        footer {
+            text-align: center;
+            color: #888;
+            font-size: 0.95em;
+            padding: 16px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to 'My About' Page!</h1>
+    </header>
+    <div class="main-box">
+        <img src="https://png.pngtree.com/png-clipart/20240826/original/pngtree-illustartion-of-muslim-girl-wearing-hijab-png-image_15857499.png" alt="My profile photo" class="profile-pic" id="myImage">
+        <h2>Hey, I'm Sulekha Yunuskutty</h2>
+ 
+            Thanks for visiting! I’m someone who loves learning new things, mainly interested in Biology and Chemistry.
+        </p>
+        <p>
+            I am more of a creative girl who loves doing art and painting.I spend my leisure time in making something creatively,sketching and Reading. I also enjoy music and trying out new recipes!
+        </p>
+        <h3>Some of my hobbies:</h3>
+        <ul class="hobbies">
+
+            <li>Sketching</li>
+            <li>Travelling</li
+            <li>Painting</li>
+            <li>Listening to music</li>
+            <li>Cooking</li>
+            <li>Reading</li>
+        </ul>
+        <p id="funText">Click the button below for a fun surprise!</p>
+        <button class="fun-btn" onclick="changeStuff()">Surprise Me</button>
+    </div>
+    <footer>
+        &copy; 2025 Sulekha | Contact: sulekha23@iisertvm.ac.in
+    </footer>
+    <script>
+        // This function changes the text and image when the button is clicked
+        function changeStuff() {
+            document.getElementById('funText').textContent = "You found my favourite hobby: Painting scenic beauty!";
+            document.getElementById('myImage').src = "https://share1.cloudhq-mkt3.net/9e1ed18f643110.jpeg";
+        }
+    </script>
+</body>
+</html>
